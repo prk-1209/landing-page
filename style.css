@@ -1,0 +1,206 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .container,
+.mid-one .container,
+.quote {
+    padding: 0 0 80px 0;
+}
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 70px 0px;
+}
+
+
+
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    width: 500px;
+
+}
+
+.secondary-text {
+    width: 400px;
+}
+
+.secondary-text,
+.footer {
+    color: #E5E7EB;
+}
+
+
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.right img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 230px;
+}
+
+
+
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.items>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 160px;
+}
+
+
+
+
+.sign-up {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+
+.sign-up--outline {
+    border: 2px solid white;
+}
+
+
+
+
+.information-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 100px;
+}
+
+.quote-header {
+    width: 830px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.quote-footer {
+    width: 830px;
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: 900;
+    font-style: normal;
+    text-align: right;
+}
+
+
+
+
+.action {
+    background-color: #F9FAF8;
+    color: #F9FAF8;
+    padding: 100px;
+}
+
+.action-header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.action .container {
+    background-color: #3882f6;
+    padding: 30px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-left,
+.action-right {
+    padding: 20px 60px;
+}
+
+
+
+
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 0;
+}
